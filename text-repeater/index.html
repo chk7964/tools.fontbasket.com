@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Reaperter</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link>
+  <style>
+
+
+  </style>
+</head>
+
+<body>
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
+  <div id="header"></div>
+  <br>
+  <div class="container">
+
+
+
+    <textarea class="form-control" id="text" placeholder="Enter Text" autocomplete="off" rows="5"></textarea>
+    <br>
+
+    <input class="form-control" cols="25" type="number" id="number" inputmode="numeric" placeholder="Repeats"
+      autocomplete="off">
+
+    <br>
+    <textarea class="form-control" id="text1" placeholder="Enter Text" autocomplete="off" rows="5"></textarea>
+<br>
+
+
+
+
+
+
+<div class="">
+    <button class=" btn btn-primary" type="button" id="repeatButton1" onclick="repeatTextInNewLine()" onclick="process()">Repeat (New
+      Line)</button>
+
+
+
+    <button class="btn btn-primary" type="button" id="repeatButton2" onclick="repeatTextInSameLine()">Repeat
+      (Same Line)</button>
+
+
+
+    <button class="btn btn-primary" type="button" class="bt" data-clipboard-target="#text1">Copy</button>
+
+
+
+    <button class="btn btn-success m-5" type="reset" id="reset" onclick="resetFn()">Reset</button>
+</div>
+<br>
+    <div class="output">
+      <div>
+        <h6>WORDS</h6>
+        <h3 id="words">0</h3>
+      </div>
+      <div>
+        <h6>CHARACTERS</h6>
+        <h3 id="characters">0</h3>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="./js.js"></script>
+  <script>
+
+    function repeatTextInNewLine() {
+
+
+
+      var Text = document.getElementById("text").value;
+
+      var repeats = document.getElementById("number").value;
+
+      var repeatedText = document.getElementById("repeatedText");
+
+      for (i = 1; i <= repeats; i++) {
+
+        document.getElementById("text1").value += Text + "\n";
+
+      };
+
+
+      document.getElementById("repeatButton1").disabled = true;
+
+      document.getElementById("repeatButton2").disabled = true;
+
+      document.getElementById("repeatButton1").innerHTML = "Repeated"
+
+
+    };
+
+
+    function repeatTextInSameLine() {
+
+
+
+      var Text = document.getElementById("text").value;
+
+      var repeats = document.getElementById("number").value;
+
+      var repeatedText = document.getElementById("repeatedText");
+
+
+
+      for (i = 2; i <= repeats; i++) {
+
+        document.getElementById("text1").value += Text + " ";
+
+      };
+
+      document.getElementById("repeatButton2").disabled = true;
+
+      document.getElementById("repeatButton1").disabled = true;
+
+      document.getElementById("repeatButton2").innerHTML = "Repeated"
+
+
+
+    };
+
+
+
+
+    function resetFn() {
+
+      document.getElementById("repeatButton1").disabled = false;
+
+      document.getElementById("repeatButton2").disabled = false;
+
+      document.getElementById("repeatButton1").innerHTML = "Repeat (New Line)";
+
+      document.getElementById("repeatButton2").innerHTML = "Repeat (Same Line)";
+
+      $("#text").val('');
+      $("#text1").val('');
+      $("#number").val('');
+    };
+
+
+    $(document).ready(function () {
+      $("#text1").on("input", function (e) {
+        $("#characters").text(this.value.replace(/ /g, '').length);
+        $("#words").text(this.value.trim().split(" ").filter((item) => item).length);
+      });
+    });
+
+
+
+
+
+
+    $(function () {
+      $("#header").load("/import/header.html");
+      $("#footer").load("footer.html");
+    }); 
+  </script>
+
+</body>
+
+</html>
