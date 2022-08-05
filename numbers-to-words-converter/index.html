@@ -26,56 +26,32 @@ height: 8px;
 
   
   
-  <div class="container" style="border-radius: 5px; background-color:#ffffff;">
+  <div class="container p-2" style="border-radius: 5px; background-color:#ffffff;">
     <div id="header"></div>
     <br>
-<br>
-
-    <textarea class="form-control border border-primary" id="text" placeholder="Enter Text" autocomplete="off" rows="5"></textarea>
-    <div class="d-inline-flex ">
-      <div class="p-2">
-        <b>WORDS:</b>
-        <b id="words">0</b>
-      </div>
-      <div class="p-2">
-        <b>CHARACTERS:</b>
-        <b id="characters">0</b>
-      </div>
-    </div>
-    <br>
-
-    <input class="form-control border border-primary" cols="25" type="number" id="number" inputmode="numeric" placeholder="Enter Repetitions Number"
-      autocomplete="off">
-
-    <br>
-    <textarea class="form-control border border-primary" id="text1" placeholder="Output Here" autocomplete="off" rows="5"></textarea>
-<br>
-
-
-
-
-
-
-<div class="">
-
-  
-    <button class=" btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton1" onclick="repeatTextInNewLine()" onclick="process()">Repeat (New
-      Line)</button>
-
-
-
-    <button class="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" onclick="repeatTextInSameLine()">Repeat
-      (Same Line)</button>
-
-
-
-    <button class="btn btn-primary pl-3 pr-3 m-1 bt" type="button" data-clipboard-target="#text1">Copy</button>
-
-
-
-    <button class="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset" onclick="resetFn()">Reset</button>
-</div>
-<br>
+   
+      <h1> <b> <i>Conveting Numbers Into Their Word Form
+        </i> </b> </h1>
+        <pr> Enter Number:</pr>
+      <br/>
+       <input class="form-control" id = "number" onkeypress="return onlyNumberKey(event)" type="text" placeholder="Enter Number"> </input> 
+      <br/><br/>
+       
+      
+      
+      <button onclick = "NumberToWord()"  class="btn btn-primary"  >Convert Number to Word</button>
+      <br/>
+      
+      <br/>
+      <pr> See Words:</pr><textarea disabled class="form-control p-2" id="tb" name="tb"  rows="5" placeholder="Converted Word Appear Here"> </textarea>
+      <br>
+      <button class="btn btn-primary bt" data-clipboard-target="#tb">Copy Word</button>
+      
+      
+      <script>
+      
+</script>
+      
 
     <br>
     <h1>What Is Text Repeater?</h1>
