@@ -63,9 +63,9 @@ function resetFn() {
 
   document.getElementById("repeatButton2").disabled = false;
 
-  document.getElementById("repeatButton1").innerHTML = "Repeat (New Line)";
+  document.getElementById("repeatButton1").innerHTML = "<i class='fa fa-angle-double-down'></i> Repeat (New Line)";
 
-  document.getElementById("repeatButton2").innerHTML = "Repeat (Same Line)";
+  document.getElementById("repeatButton2").innerHTML = "<i class='fa fa-angle-double-right'></i> Repeat (Same Line)";
 
   $("#text").val('');
   $("#text1").val('');

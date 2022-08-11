@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Text Reaperter</title>
+  <title>Lower Case</title>
   <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
@@ -24,58 +24,27 @@ height: 8px;
 <body>
   <script src="/js/jquery-3.6.0.min.js"></script>
 
+  <div id="header"></div>
   
+  <div class="container p-2"  style="border-radius: 5px; background-color:#ffffff;">
+    <div class="p-1">
+      <textarea class="form-control" rows="5" id="k" placeholder="Enter Your Text"></textarea>
   
-  <div class="container p-2" style="border-radius: 5px; background-color:#ffffff;">
-    <div id="header"></div>
-    <br>
-<br>
-
-    <textarea class="form-control border border-primary" id="text" placeholder="Enter Text" autocomplete="off" rows="5"></textarea>
-    <div class="d-inline-flex ">
-      <div class="p-2">
-        <b>WORDS:</b>
-        <b id="words">0</b>
-      </div>
-      <div class="p-2">
-        <b>CHARACTERS:</b>
-        <b id="characters">0</b>
-      </div>
     </div>
-    <br>
-
-    <input class="form-control border border-primary" cols="25" type="number" id="number" inputmode="numeric" placeholder="Enter Repetitions Number"
-      autocomplete="off">
-
-    <br>
-    <textarea class="form-control border border-primary" id="text1" placeholder="Output Here" autocomplete="off" rows="5"></textarea>
-<br>
-
-
-
-
-
-
-<div class="">
-
+  <div class="text-center">
+    <button class="btn btn-success" id="b">Convert </button>
+  </div>
+  <div class="p-1">
+    <textarea readonly class="form-control" rows="5" id="result" placeholder="Enter Your Text"></textarea>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-success bt" data-clipboard-target="#result">Copy</button>
+  </div>
   
-    <button class=" btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton1" onclick="repeatTextInNewLine()" onclick="process()">Repeat (New
-      Line)</button>
 
 
-
-    <button class="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" onclick="repeatTextInSameLine()">Repeat
-      (Same Line)</button>
-
-
-
-    <button class="btn btn-primary pl-3 pr-3 m-1 bt" type="button" data-clipboard-target="#text1">Copy</button>
-
-
-
-    <button class="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset" onclick="resetFn()">Reset</button>
-</div>
-<br>
+      
+  
 
     <br>
     <h1>What Is Text Repeater?</h1>
@@ -84,9 +53,12 @@ height: 8px;
   <h1>How To Use Text Repeater?</h1>
     <p class="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
   
-  <div id="footer"></div>
+ 
   </div>
-  
+
+<footer>
+  <div id="footer"></div>
+</footer>
   <script src="./js.js"></script>
   <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>

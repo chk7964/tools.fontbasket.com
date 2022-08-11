@@ -9,6 +9,7 @@
   <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
+
   <link>
   <style>
 .toast{
@@ -18,16 +19,20 @@
 background-color: aquamarine;
 height: 8px;
 }
+
+#lua-navbar-toggler:checked ~ .collapse {
+    display:block;
+}
   </style>
 </head>
 
 <body>
   <script src="/js/jquery-3.6.0.min.js"></script>
 
-  
-  
+   <div id="header"></div>
+
   <div class="container" style="border-radius: 5px; background-color:#ffffff;">
-    <div id="header"></div>
+   
     <br>
 <br>
 
@@ -43,14 +48,16 @@ height: 8px;
       </div>
     </div>
     <br>
-    <button class=" btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton1" onclick="repeatTextInNewLine()" onclick="process()">Repeat (New
+    <div class="m-1">
+    <button class=" btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton1" onclick="repeatTextInNewLine()" onclick="process()"><i class="fa fa-angle-double-down"></i> Repeat (New
       Line)</button>
 
 
 
-    <button class="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" onclick="repeatTextInSameLine()">Repeat
+    <button class="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" onclick="repeatTextInSameLine()"><i class="fa fa-angle-double-right"></i> Repeat
       (Same Line)</button>
-      <br>
+    </div>
+     <br>
     <input class="form-control border border-primary" cols="25" type="number" id="number" inputmode="numeric" placeholder="Enter Repetitions Number"
       autocomplete="off">
 
@@ -70,11 +77,11 @@ height: 8px;
 
 
 
-    <button class="btn btn-primary pl-3 pr-3 m-1 bt" type="button" data-clipboard-target="#text1">Copy</button>
+    <button class="btn btn-primary pl-3 pr-3 m-1 bt" type="button" data-clipboard-target="#text1"><i class="fa fa-clone"></i> Copy</button>
 
 
 
-    <button class="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset" onclick="resetFn()">Reset</button>
+    <button class="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset" onclick="resetFn()"><i class="fa fa-refresh"></i> Reset</button>
 </div>
 <br>
 
@@ -85,9 +92,11 @@ height: 8px;
   <h1>How To Use Text Repeater?</h1>
     <p class="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
   
-  <div id="footer"></div>
+
   </div>
   
+
+  <div id="footer"></div>
   <script src="./js.js"></script>
   <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
