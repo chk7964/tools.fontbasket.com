@@ -24,7 +24,7 @@ height: 8px;
 <body>
   <script src="/import/js/jquery-3.6.0.min.js"></script>
 
-  <div id="header"></div>
+  <my-header></my-header>
   
   <div class="container p-2"  style="border-radius: 5px; background-color:#ffffff;">
 
@@ -61,17 +61,13 @@ height: 8px;
   </div>
 
 <footer>
-  <div id="footer"></div>
+  <my-footer></my-footer>
 </footer>
+<script type="module" src="/import/js/hb.js"></script>
   <script src="./js.js"></script>
   <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <script>
-    $(function () {
-      $("#header").load("/import/header.html");
-      $("#footer").load("/import/footer.html");
-    }); 
-
 
     toastr.options = {
   "closeButton": true,

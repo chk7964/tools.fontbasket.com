@@ -74,3 +74,56 @@ div.scrollmenu a:hover {
     }
 }
   customElements.define ('my-header' , MyHeader )
+
+
+
+  class Myfooter extends HTMLElement {
+    connectedCallback ( ) {
+      this.innerHTML = `
+      <div class="footer">
+      <div class="fmenu">
+      <a href="/">Home</a><a href="/">About Us</a><a href="/">Contact Us</a><a href="/">Privacy Policy</a>
+    </div>
+      <p>Copyright &copy; <b id="year"></b> Your Name All Rights Reserved</p>
+    </div>
+    
+    <style>
+      .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+    
+      .footer p {
+        margin: 0;
+      }
+    
+      .footer a {
+        display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      }
+      .footer a:hover{
+        background-color: #777;
+      }
+      .fmenu{
+        background-color: rgb(240, 78, 3);
+      }
+    </style>
+    
+    <script>
+      const d = new Date();
+      let year = d.getFullYear();
+    
+      $('#year').html(year);
+    </script>
+  `
+
+    }
+}
+  customElements.define ('my-footer' , Myfooter )
