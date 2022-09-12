@@ -2,7 +2,7 @@ import Title from '../components/Title'
 export default function textrepeater() {
  return (
   <>
-   <Title title="reverse-text" />
+   <Title title="lower-case" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
 <div className="container p-2" >

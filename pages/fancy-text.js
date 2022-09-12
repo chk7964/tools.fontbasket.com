@@ -2,7 +2,7 @@ import Title from '../components/Title'
 export default function textrepeater() {
  return (
   <>
-   <Title title="upper-case" />
+   <Title title="fancy-text" />
 <br/>
 <style jsx>{`
      .copybutton{
