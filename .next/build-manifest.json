@@ -1,93 +1,38 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-79441a336eb07a143a5d.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/ornKqyZlmBZYmtn7UQ9IE/_buildManifest.js",
-    "static/ornKqyZlmBZYmtn7UQ9IE/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/index-1d8c3a186cbb2631a70c.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.fb1994399359b07cac87.js",
-      "static/css/c6d04b7be5bd57d6c7af.css",
-      "static/chunks/pages/_app-095fcebde5a4b793196e.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/_error-37628e4d2daef5a944ff.js"
-    ],
-    "/about": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/about-d7a16099cc4a1d3c9871.js"
-    ],
-    "/capitalize-case": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/capitalize-case-35e506a6015b1e9c357d.js"
-    ],
-    "/fancy-text": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/fancy-text-a8048208053a3b7e44af.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/_error.js"
     ],
     "/invisible-character": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/invisible-character-18fb5cc1c9e9a2593be8.js"
-    ],
-    "/lower-case": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/lower-case-dba7d057d30988c6f6c6.js"
-    ],
-    "/numbers-to-words-converter": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/numbers-to-words-converter-bb9f989d9db4c15a8ddb.js"
-    ],
-    "/reverse-text": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/reverse-text-faad44f730c92f5cbece.js"
-    ],
-    "/shuffle-text": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/shuffle-text-db0bd1b5ad70737bffbf.js"
-    ],
-    "/text-repeater": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/text-repeater-f1f6f751a8fe05dbd409.js"
-    ],
-    "/upper-case": [
-      "static/chunks/main-16240c94ad1438854d12.js",
-      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
-      "static/chunks/framework.abffcf18e526b7c0dbcd.js",
-      "static/chunks/pages/upper-case-cb13d86fa4165d62e4cf.js"
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/invisible-character.js"
     ]
   },
   "ampFirstPages": []

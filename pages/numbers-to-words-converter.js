@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-export default function textrepeater() {
+export default function numberstowordsconverter() {
  return (
   <>
    <Title title="numbers-to-words-converter" />
@@ -27,10 +27,10 @@ export default function textrepeater() {
 
 <br/>
 <h1>What Is Number To Word Converter?</h1>
-<p>Hey user, if you are want to convert your number to word then you are on the right website.</p>
+<p>Hey user, if you want to convert your number to word then you are on the right website. This website is totally free.</p>
 <br/>
 <h1>How To Use Number to word Converter?</h1>
-<p>You type in input box your number and click number to word then you see result below. </p>
+<p>Enter your number or paste your number in the box and click number to word button then you see the result below. </p>
 
 
 </div>

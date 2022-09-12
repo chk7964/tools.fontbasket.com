@@ -12,6 +12,10 @@
   text-decoration: none;
   color: white;
 }
+.header a:hover{
+  text-decoration: none;
+  color: white;
+}
  .header p {
    margin: 0;
 

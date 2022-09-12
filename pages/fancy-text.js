@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-export default function textrepeater() {
+export default function fancytext() {
  return (
   <>
    <Title title="fancy-text" />

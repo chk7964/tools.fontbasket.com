@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-export default function textrepeater() {
+export default function lowercase() {
  return (
   <>
    <Title title="lower-case" />
@@ -26,11 +26,11 @@ export default function textrepeater() {
   
 
     <br/>
-    <h1>What Is Text Repeater?</h1>
-    <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
+    <h1>What Is Lower Case Text Converter?</h1>
+    <p className="text-justify">Hey user, if you are want to convert your text in Lower Case letter then you are on the right website here you can convert your text in Lower Case.</p>
   <br/>
-  <h1>How To Use Text Repeater?</h1>
-    <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
+  <h1>How To Use  Lower Case Text Converter?</h1>
+    <p className="text-justify">First enter your text or paste your text in the first box and click the convert button and see the result below. Now you can copy your text by clicking the copy button.</p>
   
  
   </div>

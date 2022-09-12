@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-export default function textrepeater() {
+export default function SuffleText() {
  return (
   <>
    <Title title="Suffle Text" />
@@ -17,7 +17,7 @@ export default function textrepeater() {
     <textarea readOnly className="form-control" rows="5" id="result" placeholder="Enter Your Text"></textarea>
   </div>
   <div className="text-center">
-    <button className="btn btn-success bt" data-clipboard-target="#result">Copy</button>
+    <button className="btn btn-success bt" data-clipboard-target="#result"><i className="fa fa-clone"></i> Copy</button>
   </div>
   
 
@@ -25,11 +25,11 @@ export default function textrepeater() {
   
 
     <br/>
-    <h1>What Is Text Repeater?</h1>
-    <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
+    <h1>What Is Shuffle Text Generator?</h1>
+    <p className="text-justify">Hey user, if you are want to shuffle your letters, emoji, and symbol. then you are on the right website here you can shuffle your text unlimited times.</p>
   <br/>
-  <h1>How To Use Text Repeater?</h1>
-    <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
+  <h1>How To Use Shuffle Text Generator?</h1>
+    <p className="text-justify">Enter Your words in text box then click shuffle text button and see result below box. Now you can copy your text by clicking copy button.</p>
   
  
   </div>

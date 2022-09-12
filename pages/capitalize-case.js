@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-export default function textrepeater() {
+export default function capitalizecase() {
  return (
   <>
    <Title title="capitalize-case" />
