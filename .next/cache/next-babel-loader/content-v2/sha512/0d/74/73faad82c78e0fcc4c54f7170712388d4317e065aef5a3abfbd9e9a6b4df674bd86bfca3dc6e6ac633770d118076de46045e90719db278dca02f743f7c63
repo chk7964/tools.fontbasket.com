@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Image from 'next/image';\nexport default function Hero() {\n  return /*#__PURE__*/_jsx(Image, {\n    src: \"/../public/images/banner.jpg\",\n    width: 1920,\n    height: 400\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
