@@ -1,40 +1,56 @@
+$("#repeatButton1").click(function(){
+  var Text = " ";
+  
+  var repeats = document.getElementById("number").value;
 
-function repeatTextInNewLine() {
+  for (i = 1; i <= repeats; i++) {
 
+    document.getElementById("text1").value += Text + "\n";
 
-
-    var Text = " ";
-  
-    var repeats = document.getElementById("number").value;
-  
-    var repeatedText = document.getElementById("repeatedText");
-  
-    for (i = 1; i <= repeats; i++) {
-  
-      document.getElementById("text1").value += Text + "\n";
-  
-    };
-  
-  
-    document.getElementById("repeatButton1").disabled = true;
-  
-    document.getElementById("repeatButton2").disabled = true;
-  
-    document.getElementById("repeatButton1").innerHTML = "Repeated"
-  
-  
   };
+
+
+  document.getElementById("repeatButton1").disabled = true;
+
+  document.getElementById("repeatButton2").disabled = true;
+
+  document.getElementById("repeatButton1").innerHTML = "Repeated";
+
+
+})
+
+
+// function repeatTextInNewLine() {
+
+
+
+//     var Text = " ";
+  
+//     var repeats = document.getElementById("number").value;
+  
+//     var repeatedText = document.getElementById("repeatedText");
+  
+//     for (i = 1; i <= repeats; i++) {
+  
+//       document.getElementById("text1").value += Text + "\n";
+  
+//     };
   
   
-  function repeatTextInSameLine() {
+//     document.getElementById("repeatButton1").disabled = true;
+  
+//     document.getElementById("repeatButton2").disabled = true;
+  
+//     document.getElementById("repeatButton1").innerHTML = "Repeated"
   
   
-  
-    var Text = document.getElementById("text").value;
+//   };
+$("#repeatButton2").click(function(){
+
+  var Text = " ";
   
     var repeats = document.getElementById("number").value;
   
-    var repeatedText = document.getElementById("repeatedText");
   
   
   
@@ -48,17 +64,41 @@ function repeatTextInNewLine() {
   
     document.getElementById("repeatButton1").disabled = true;
   
-    document.getElementById("repeatButton2").innerHTML = "Repeated"
+    document.getElementById("repeatButton2").innerHTML = "Repeated";
+  
+  })
+  
+  // function repeatTextInSameLine() {
   
   
   
-  };
+  //   var Text = document.getElementById("text").value;
+  
+  //   var repeats = document.getElementById("number").value;
+  
+  //   var repeatedText = document.getElementById("repeatedText");
   
   
   
+  //   for (i = 2; i <= repeats; i++) {
   
-  function resetFn() {
+  //     document.getElementById("text1").value += Text + " ";
   
+  //   };
+  
+  //   document.getElementById("repeatButton2").disabled = true;
+  
+  //   document.getElementById("repeatButton1").disabled = true;
+  
+  //   document.getElementById("repeatButton2").innerHTML = "Repeated"
+  
+  
+  
+  // };
+  
+  
+  $("#reset").click(function(){
+
     document.getElementById("repeatButton1").disabled = false;
   
     document.getElementById("repeatButton2").disabled = false;
@@ -70,7 +110,23 @@ function repeatTextInNewLine() {
     $("#text").val('');
     $("#text1").val('');
     $("#number").val('');
-  };
+
+  })
+  
+  // function resetFn() {
+  
+  //   document.getElementById("repeatButton1").disabled = false;
+  
+  //   document.getElementById("repeatButton2").disabled = false;
+  
+  //   document.getElementById("repeatButton1").innerHTML = "Repeat (New Line)";
+  
+  //   document.getElementById("repeatButton2").innerHTML = "Repeat (Same Line)";
+  
+  //   $("#text").val('');
+  //   $("#text1").val('');
+  //   $("#number").val('');
+  // };
   
   
   $(document).ready(function () {

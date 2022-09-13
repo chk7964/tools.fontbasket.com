@@ -27,7 +27,7 @@ export default function invisiblecharacter() {
 
 
 
-          <button className="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" onClick="repeatTextInSameLine()">Repeat
+          <button className="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" >Repeat
             (Same Line)</button>
 
 
@@ -36,7 +36,7 @@ export default function invisiblecharacter() {
 
 
 
-          <button className="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset" onClick="resetFn()">Reset</button>
+          <button className="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset">Reset</button>
         </div>
         <br />
 
