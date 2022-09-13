@@ -10,7 +10,9 @@ export default function Home() {
  <div className='container'>
   <h2>All Tool List</h2>
   <table>
-    <tr><td>Fancy Text</td><td>#</td></tr>
+  <thead><tr><td>Fancy Text</td><td>#</td></tr></thead>
+  <tbody>
+    <tr><td>Fancy Text</td><td>#</td></tr></tbody>
   </table>
   </div>
 
