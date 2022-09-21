@@ -1,7 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/invisible-character": "pages/invisible-character.js",
-  "/numbers-to-words-converter": "pages/numbers-to-words-converter.js"
+  "/_document": "pages/_document.js"
 }

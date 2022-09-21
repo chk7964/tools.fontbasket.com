@@ -23,16 +23,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/invisible-character": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/invisible-character.js"
-    ],
-    "/numbers-to-words-converter": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/numbers-to-words-converter.js"
     ]
   },
   "ampFirstPages": []
