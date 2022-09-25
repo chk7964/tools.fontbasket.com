@@ -1,13 +1,15 @@
-import Title from '../components/Title'
+import Head from 'next/head'
 export default function capitalizecase() {
  return (
   <>
-   <Title title="capitalize-case" />
+<Head>
+<title>Capitalize Case Converter</title>
+</Head>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
 <div className="container p-2">
 
-<h1>What Is Text Repeater?</h1>
+<h1>What Is Capitalize Case Converter?</h1>
 <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
 
 <div className="p-1">

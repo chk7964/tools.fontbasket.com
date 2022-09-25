@@ -1,8 +1,6 @@
-import Title from '../components/Title'
 export default function SuffleText() {
  return (
   <>
-   <Title title="Suffle Text" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
    <div className="container p-2">

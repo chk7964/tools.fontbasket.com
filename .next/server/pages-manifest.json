@@ -1,5 +1,18 @@
 {
   "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/capitalize-case": "pages/capitalize-case.html",
+  "/fancy-text": "pages/fancy-text.html",
+  "/": "pages/index.html",
+  "/invisible-character": "pages/invisible-character.html",
+  "/lower-case": "pages/lower-case.html",
+  "/numbers-to-words-converter": "pages/numbers-to-words-converter.html",
+  "/reverse-text": "pages/reverse-text.html",
+  "/shuffle-text": "pages/shuffle-text.html",
+  "/text-repeater": "pages/text-repeater.html",
+  "/upper-case": "pages/upper-case.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/404": "pages/404.html"
 }

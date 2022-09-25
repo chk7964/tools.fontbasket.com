@@ -1,8 +1,6 @@
-import Title from '../components/Title'
 export default function fancytext() {
  return (
   <>
-   <Title title="fancy-text" />
 <br/>
 <style jsx>{`
      .copybutton{

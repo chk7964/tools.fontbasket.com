@@ -1,8 +1,10 @@
-import Title from '../components/Title'
+import Head from 'next/head'
 export default function invisiblecharacter() {
   return (
     <>
-      <Title title="invisible-character" />
+    <Head>
+      <title>Invisible Text Generator</title>
+    </Head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
       <br />
       <div className="container p-2">
