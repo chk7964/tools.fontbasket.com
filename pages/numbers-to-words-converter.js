@@ -1,4 +1,4 @@
-import Head from 'next/head'
+ import Head from 'next/head'
 export default function numberstowordsconverter() {
  return (
   <>
@@ -35,9 +35,9 @@ export default function numberstowordsconverter() {
 
 
 </div>
-  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src='/js/numbers-to-words-converter/js.js'></script>
+  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
+<script src='/js/numbers-to-words-converter/js.js' defer ></script>
   </>
  )
 }

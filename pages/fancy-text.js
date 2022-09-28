@@ -300,10 +300,10 @@ export default function fancytext() {
 
 
 </div>
-<script src="/js/fancy-text/clipboard.js"></script>
-<script src="/js/fancy-text/fonts.js"></script>
-<script src="/js/fancy-text/preview.js"></script>
-<script src="/js/fancy-text/copybutton.js"></script>
+<script src="/js/fancy-text/clipboard.js" defer ></script>
+<script src="/js/fancy-text/fonts.js" defer ></script>
+<script src="/js/fancy-text/preview.js" defer ></script>
+<script src="/js/fancy-text/copybutton.js" defer ></script>
   </>
  )
 }

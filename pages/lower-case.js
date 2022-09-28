@@ -38,9 +38,9 @@ export default function lowercase() {
   
  
   </div>
-  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src='/js/lower-case/js.js'></script>
+  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
+<script src='/js/lower-case/js.js' defer ></script>
   </>
  )
 }

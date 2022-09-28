@@ -5,7 +5,7 @@ export default function uppercase() {
   <Head>
 <title>Upper Case Converter</title>
 </Head>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+   {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
 <div className="container p-2" >
     <div className="p-1">
@@ -36,9 +36,9 @@ export default function uppercase() {
   
  
   </div>
-  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src='/js/upper-case/js.js'></script>
+  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
+<script src='/js/upper-case/js.js' defer ></script> */}
   </>
  )
 }

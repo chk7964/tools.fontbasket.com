@@ -49,9 +49,9 @@ export default function invisiblecharacter() {
         <h1 className='text-xl font-bold'>How To Use Invisible Text Generator?</h1>
         <p className="text-justify">Enter the number in the first box when you want to generate invisible text.</p>
       </div>
-      <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-      <script src='/js/invisible-character/js.js'></script>
+      <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
+      <script src='/js/invisible-character/js.js'  defer ></script>
     </>
   )
 }

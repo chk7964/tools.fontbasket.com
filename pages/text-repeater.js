@@ -47,9 +47,9 @@ export default function textrepeater() {
         <p className="italic">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
       </div>
 
-      <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-      <script src="/js/text-repeater/js.js"></script>
+      <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
+      <script src="/js/text-repeater/js.js" defer ></script>
 
     </>
   )

@@ -1,89 +1,170 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./components/Footer.js":
-/*!******************************!*\
-  !*** ./components/Footer.js ***!
-  \******************************/
+/***/ 316:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ footer)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction footer() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"footer\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"fmenu\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            children: \"Home\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                            lineNumber: 9,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            children: \"About Us\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                            lineNumber: 10,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            children: \"Contact Us\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                            lineNumber: 11,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            children: \"Privacy Policy\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                            lineNumber: 12,\n                            columnNumber: 3\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                    lineNumber: 8,\n                    columnNumber: 3\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    children: [\n                        \"Copyright \\xa9 \",\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                            id: \"year\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                            lineNumber: 14,\n                            columnNumber: 23\n                        }, this),\n                        \" Your Name All Rights Reserved\"\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n                    lineNumber: 14,\n                    columnNumber: 3\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n            lineNumber: 7,\n            columnNumber: 1\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Footer.js\",\n        lineNumber: 6,\n        columnNumber: 3\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0Zvb3Rlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFDQTtBQUFlLFNBQVNBLE1BQU0sR0FBRztJQUNoQyxxQkFHQyw4REFBQ0MsS0FBRztrQkFDTiw0RUFBQ0EsS0FBRztZQUFDQyxTQUFTLEVBQUMsUUFBUTs7OEJBQ3JCLDhEQUFDRCxLQUFHO29CQUFDQyxTQUFTLEVBQUMsT0FBTzs7c0NBQ3RCLDhEQUFDQyxHQUFDOzRCQUFDQyxJQUFJLEVBQUMsR0FBRztzQ0FBQyxNQUFJOzs7OztnQ0FBSTtzQ0FDcEIsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyxHQUFHO3NDQUFDLFVBQVE7Ozs7O2dDQUFJO3NDQUN4Qiw4REFBQ0QsR0FBQzs0QkFBQ0MsSUFBSSxFQUFDLEdBQUc7c0NBQUMsWUFBVTs7Ozs7Z0NBQUk7c0NBQzFCLDhEQUFDRCxHQUFDOzRCQUFDQyxJQUFJLEVBQUMsR0FBRztzQ0FBQyxnQkFBYzs7Ozs7Z0NBQUk7Ozs7Ozt3QkFDMUI7OEJBQ0osOERBQUNDLEdBQUM7O3dCQUFDLGlCQUFpQjtzQ0FBQSw4REFBQ0MsR0FBQzs0QkFBQ0MsRUFBRSxFQUFDLE1BQU07Ozs7O2dDQUFLO3dCQUFBLGdDQUE4Qjs7Ozs7O3dCQUFJOzs7Ozs7Z0JBQ25FOzs7OztZQUVFLENBQ047QUFDRixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXktcHJvamVjdC8uL2NvbXBvbmVudHMvRm9vdGVyLmpzP2UxYWIiXSwic291cmNlc0NvbnRlbnQiOlsiXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGZvb3RlcigpIHtcclxuIHJldHVybiAoXHJcblxyXG5cclxuICA8ZGl2PlxyXG48ZGl2IGNsYXNzTmFtZT1cImZvb3RlclwiPlxyXG4gIDxkaXYgY2xhc3NOYW1lPVwiZm1lbnVcIj5cclxuICA8YSBocmVmPVwiI1wiPkhvbWU8L2E+XHJcbiAgPGEgaHJlZj1cIiNcIj5BYm91dCBVczwvYT5cclxuICA8YSBocmVmPVwiI1wiPkNvbnRhY3QgVXM8L2E+XHJcbiAgPGEgaHJlZj1cIiNcIj5Qcml2YWN5IFBvbGljeTwvYT5cclxuPC9kaXY+XHJcbiAgPHA+Q29weXJpZ2h0ICZjb3B5OyA8YiBpZD1cInllYXJcIj48L2I+IFlvdXIgTmFtZSBBbGwgUmlnaHRzIFJlc2VydmVkPC9wPlxyXG48L2Rpdj5cclxuICAgIFxyXG4gIDwvZGl2PlxyXG4gKVxyXG59Il0sIm5hbWVzIjpbImZvb3RlciIsImRpdiIsImNsYXNzTmFtZSIsImEiLCJocmVmIiwicCIsImIiLCJpZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Footer.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: ./components/Navbar.js
+
+function Navbar() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "header",
+                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "./",
+                        children: "Tools Font Basket"
+                    })
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "scrollmenu",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "menu",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "./",
+                            children: "Home"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/capitalize-case",
+                            children: "CapitalizeCase Converter"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/fancy-text",
+                            children: "Fancy Text"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/invisible-character/",
+                            children: "Invisible Text Generator"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/lower-case/",
+                            children: "LowerCase Text Converter"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/numbers-to-words-converter/",
+                            children: "Number To Word Converter"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/reverse-text/",
+                            children: "Reverse Text Converter"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/shuffle-text/",
+                            children: "Suffle Text "
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/text-repeater/",
+                            children: "Text Repeater"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/upper-case/",
+                            children: "UpperCase Conveter"
+                        })
+                    ]
+                })
+            })
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./components/Footer.js
+
+function footer() {
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "footer",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "fmenu",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "#",
+                            children: "Home"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "#",
+                            children: "About Us"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "#",
+                            children: "Contact Us"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "#",
+                            children: "Privacy Policy"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                    children: [
+                        "Copyright \xa9 ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                            id: "year"
+                        }),
+                        " Your Name All Rights Reserved"
+                    ]
+                })
+            ]
+        })
+    });
+}
+
+;// CONCATENATED MODULE: ./components/Layout.js
+
+
+
+function Layout({ children  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx("main", {
+                children: children
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(footer, {})
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./pages/_app.js
+
+
+
+
+function MyApp({ Component , pageProps  }) {
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
+            children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
+        })
+    });
+}
+/* harmony default export */ const _app = (MyApp);
+
 
 /***/ }),
 
-/***/ "./components/Layout.js":
-/*!******************************!*\
-  !*** ./components/Layout.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Layout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navbar */ \"./components/Navbar.js\");\n/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ \"./components/Footer.js\");\n\n\n\nfunction Layout({ children  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Navbar__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Layout.js\",\n                lineNumber: 6,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                children: children\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Layout.js\",\n                lineNumber: 7,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Layout.js\",\n                lineNumber: 10,\n                columnNumber: 4\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0xheW91dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQXlDO0FBQ0E7QUFDMUIsU0FBU0UsTUFBTSxDQUFDLEVBQUVDLFFBQVEsR0FBRSxFQUFFO0lBQzVDLHFCQUNDOzswQkFDQyw4REFBQ0gsMERBQU07Ozs7b0JBQUc7MEJBQ1YsOERBQUNJLE1BQUk7MEJBQ0hELFFBQVE7Ozs7O29CQUNIOzBCQUNQLDhEQUFDRiwwREFBTTs7OztvQkFBRzs7b0JBQ1IsQ0FDSDtBQUNGLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1wcm9qZWN0Ly4vY29tcG9uZW50cy9MYXlvdXQuanM/NTE1YyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTmF2YmFyIGZyb20gJy4uL2NvbXBvbmVudHMvTmF2YmFyJ1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gJy4uL2NvbXBvbmVudHMvRm9vdGVyJ1xyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMYXlvdXQoeyBjaGlsZHJlbiB9KSB7XHJcbiByZXR1cm4gKFxyXG4gIDw+XHJcbiAgIDxOYXZiYXIgLz5cclxuICAgPG1haW4+XHJcbiAgICB7Y2hpbGRyZW59XHJcbiAgIDwvbWFpbj5cclxuICAgPEZvb3RlciAvPlxyXG4gIDwvPlxyXG4gKVxyXG59Il0sIm5hbWVzIjpbIk5hdmJhciIsIkZvb3RlciIsIkxheW91dCIsImNoaWxkcmVuIiwibWFpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Layout.js\n");
-
-/***/ }),
-
-/***/ "./components/Navbar.js":
-/*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Navbar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Navbar() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"header\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"./\",\n                        children: \"Tools Font Basket\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                        lineNumber: 6,\n                        columnNumber: 6\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                    lineNumber: 6,\n                    columnNumber: 3\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                lineNumber: 5,\n                columnNumber: 1\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"scrollmenu\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"menu\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"./\",\n                            children: \"Home\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 11,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/capitalize-case\",\n                            children: \"CapitalizeCase Converter\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 12,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/fancy-text\",\n                            children: \"Fancy Text\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 13,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/invisible-character/\",\n                            children: \"Invisible Text Generator\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 14,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/lower-case/\",\n                            children: \"LowerCase Text Converter\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 15,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/numbers-to-words-converter/\",\n                            children: \"Number To Word Converter\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 16,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/reverse-text/\",\n                            children: \"Reverse Text Converter\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 17,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/shuffle-text/\",\n                            children: \"Suffle Text \"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 18,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/text-repeater/\",\n                            children: \"Text Repeater\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 19,\n                            columnNumber: 3\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/upper-case/\",\n                            children: \"UpperCase Conveter\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                            lineNumber: 20,\n                            columnNumber: 3\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                    lineNumber: 10,\n                    columnNumber: 3\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n                lineNumber: 9,\n                columnNumber: 1\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\components\\\\Navbar.js\",\n        lineNumber: 4,\n        columnNumber: 3\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL05hdmJhci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFDQTtBQUFlLFNBQVNBLE1BQU0sR0FBRztJQUNoQyxxQkFDQyw4REFBQ0MsS0FBRzs7MEJBQ04sOERBQUNBLEtBQUc7Z0JBQUNDLFNBQVMsRUFBQyxRQUFROzBCQUNyQiw0RUFBQ0MsR0FBQzs4QkFBQyw0RUFBQ0MsR0FBQzt3QkFBQ0MsSUFBSSxFQUFDLElBQUk7a0NBQUMsbUJBQWlCOzs7Ozs0QkFBSTs7Ozs7d0JBQUk7Ozs7O29CQUNyQzswQkFFTiw4REFBQ0osS0FBRztnQkFBQ0MsU0FBUyxFQUFDLFlBQVk7MEJBQ3pCLDRFQUFDRCxLQUFHO29CQUFDQyxTQUFTLEVBQUMsTUFBTTs7c0NBQ3JCLDhEQUFDRSxHQUFDOzRCQUFDQyxJQUFJLEVBQUMsSUFBSTtzQ0FBQyxNQUFJOzs7OztnQ0FBSTtzQ0FDckIsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyxrQkFBa0I7c0NBQUMsMEJBQXdCOzs7OztnQ0FBSTtzQ0FDdkQsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyxhQUFhO3NDQUFDLFlBQVU7Ozs7O2dDQUFJO3NDQUNwQyw4REFBQ0QsR0FBQzs0QkFBQ0MsSUFBSSxFQUFDLHVCQUF1QjtzQ0FBQywwQkFBd0I7Ozs7O2dDQUFJO3NDQUM1RCw4REFBQ0QsR0FBQzs0QkFBQ0MsSUFBSSxFQUFDLGNBQWM7c0NBQUMsMEJBQXdCOzs7OztnQ0FBSTtzQ0FDbkQsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyw4QkFBOEI7c0NBQUMsMEJBQXdCOzs7OztnQ0FBSTtzQ0FDbkUsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyxnQkFBZ0I7c0NBQUMsd0JBQXNCOzs7OztnQ0FBSTtzQ0FDbkQsOERBQUNELEdBQUM7NEJBQUNDLElBQUksRUFBQyxnQkFBZ0I7c0NBQUMsY0FBWTs7Ozs7Z0NBQUk7c0NBQ3pDLDhEQUFDRCxHQUFDOzRCQUFDQyxJQUFJLEVBQUMsaUJBQWlCO3NDQUFDLGVBQWE7Ozs7O2dDQUFJO3NDQUMzQyw4REFBQ0QsR0FBQzs0QkFBQ0MsSUFBSSxFQUFDLGNBQWM7c0NBQUMsb0JBQWtCOzs7OztnQ0FBSTs7Ozs7O3dCQUV6Qzs7Ozs7b0JBQ0E7Ozs7OztZQUVFLENBQ047QUFDRixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXktcHJvamVjdC8uL2NvbXBvbmVudHMvTmF2YmFyLmpzP2ZiY2EiXSwic291cmNlc0NvbnRlbnQiOlsiXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5hdmJhcigpIHtcclxuIHJldHVybiAoXHJcbiAgPGRpdj5cclxuPGRpdiBjbGFzc05hbWU9XCJoZWFkZXJcIj5cclxuICA8cD48YSBocmVmPVwiLi9cIj5Ub29scyBGb250IEJhc2tldDwvYT48L3A+XHJcbjwvZGl2PlxyXG5cclxuPGRpdiBjbGFzc05hbWU9XCJzY3JvbGxtZW51XCI+XHJcbiAgPGRpdiBjbGFzc05hbWU9XCJtZW51XCI+XHJcbiAgPGEgaHJlZj1cIi4vXCI+SG9tZTwvYT5cclxuICA8YSBocmVmPVwiL2NhcGl0YWxpemUtY2FzZVwiPkNhcGl0YWxpemVDYXNlIENvbnZlcnRlcjwvYT5cclxuICA8YSBocmVmPVwiL2ZhbmN5LXRleHRcIj5GYW5jeSBUZXh0PC9hPlxyXG4gIDxhIGhyZWY9XCIvaW52aXNpYmxlLWNoYXJhY3Rlci9cIj5JbnZpc2libGUgVGV4dCBHZW5lcmF0b3I8L2E+ICBcclxuICA8YSBocmVmPVwiL2xvd2VyLWNhc2UvXCI+TG93ZXJDYXNlIFRleHQgQ29udmVydGVyPC9hPlxyXG4gIDxhIGhyZWY9XCIvbnVtYmVycy10by13b3Jkcy1jb252ZXJ0ZXIvXCI+TnVtYmVyIFRvIFdvcmQgQ29udmVydGVyPC9hPlxyXG4gIDxhIGhyZWY9XCIvcmV2ZXJzZS10ZXh0L1wiPlJldmVyc2UgVGV4dCBDb252ZXJ0ZXI8L2E+XHJcbiAgPGEgaHJlZj1cIi9zaHVmZmxlLXRleHQvXCI+U3VmZmxlIFRleHQgPC9hPlxyXG4gIDxhIGhyZWY9XCIvdGV4dC1yZXBlYXRlci9cIj5UZXh0IFJlcGVhdGVyPC9hPlxyXG4gIDxhIGhyZWY9XCIvdXBwZXItY2FzZS9cIj5VcHBlckNhc2UgQ29udmV0ZXI8L2E+XHJcblxyXG48L2Rpdj5cclxuPC9kaXY+XHJcbiAgICBcclxuICA8L2Rpdj5cclxuIClcclxufSJdLCJuYW1lcyI6WyJOYXZiYXIiLCJkaXYiLCJjbGFzc05hbWUiLCJwIiwiYSIsImhyZWYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Navbar.js\n");
-
-/***/ }),
-
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_headfoot_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/headfoot.css */ \"./styles/headfoot.css\");\n/* harmony import */ var _styles_headfoot_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_headfoot_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ \"./components/Layout.js\");\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Layout__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\pages\\\\_app.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\CHK\\\\Desktop\\\\Tailwind\\\\my-project\\\\pages\\\\_app.js\",\n            lineNumber: 6,\n            columnNumber: 5\n        }, this)\n    }, void 0, false);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUE7QUFBOEI7QUFDQztBQUNVO0FBQ3pDLFNBQVNDLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBRSxFQUFFO0lBQ3ZDLHFCQUFPO2tCQUNMLDRFQUFDSCwwREFBTTtzQkFDTCw0RUFBQ0UsU0FBUztnQkFBRSxHQUFHQyxTQUFTOzs7OztvQkFBSTs7Ozs7Z0JBQ3JCO3FCQUNSO0FBQ0wsQ0FBQztBQUVELGlFQUFlRixLQUFLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXktcHJvamVjdC8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcclxuaW1wb3J0ICcuLi9zdHlsZXMvaGVhZGZvb3QuY3NzJ1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xyXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcclxuICByZXR1cm4gPD5cclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cclxuICAgIDwvTGF5b3V0PlxyXG4gIDwvPlxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBNeUFwcFxyXG4iXSwibmFtZXMiOlsiTGF5b3V0IiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
-
-/***/ }),
-
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./styles/headfoot.css":
-/*!*****************************!*\
-  !*** ./styles/headfoot.css ***!
-  \*****************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -94,7 +175,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(316));
 module.exports = __webpack_exports__;
 
 })();
