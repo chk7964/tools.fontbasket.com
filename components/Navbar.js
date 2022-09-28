@@ -1,14 +1,14 @@
-import Link from 'next/link'
+
 export default function Navbar() {
  return (
   <div>
 <div className="header">
-  <p><a href="/">Tools Font Basket</a></p>
+  <p><a href="./">Tools Font Basket</a></p>
 </div>
 
 <div className="scrollmenu">
   <div className="menu">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
   <a href="/capitalize-case">CapitalizeCase Converter</a>
   <a href="/fancy-text">Fancy Text</a>
   <a href="/invisible-character/">Invisible Text Generator</a>  

@@ -2,16 +2,36 @@ export default function Home() {
  return (
   <>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+<style>
 
- 
- <div className='container'>
-  <h2>All Tool List</h2>
-  <table>
-  <thead><tr><td>Fancy Text</td><td>#</td></tr></thead>
+
+</style>
+ <div className='mx-auto'>
+ <table className="border-separate border-spacing-2 border border-slate-400 table-auto w-full">
+  <thead>
+    <tr>
+      <th className="">State</th>
+      <th className="">City</th>
+    </tr>
+  </thead>
   <tbody>
-    <tr><td>Fancy Text</td><td>#</td></tr></tbody>
-  </table>
+    <tr>
+      <td className="">Indiana</td>
+      <td className="">Indianapolis</td>
+    </tr>
+    <tr>
+      <td className="">Ohio</td>
+      <td className="">Columbus</td>
+    </tr>
+    <tr>
+      <td className="">Michigan</td>
+      <td className="">Detroit</td>
+    </tr>
+  </tbody>
+</table>
+  <h1 className="">
+      Hello world
+    </h1>
   </div>
 
      </>

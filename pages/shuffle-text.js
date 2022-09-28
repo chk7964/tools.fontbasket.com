@@ -1,6 +1,13 @@
+import Head from 'next/head'
 export default function SuffleText() {
  return (
   <>
+  <Head>
+<title>
+Shuffle Text
+</title>
+
+  </Head>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
    <div className="container p-2">

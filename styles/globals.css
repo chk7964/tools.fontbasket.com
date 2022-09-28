@@ -1,2 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
+@layer base {
+    h1 {
+      @apply text-xl font-bold;
+    }
+    td {
+      @apply border border-slate-300;
+    }
+    
+  }

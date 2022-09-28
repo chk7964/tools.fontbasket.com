@@ -14,39 +14,39 @@ export default function invisiblecharacter() {
 
 
 
-        <input className="form-control border border-primary" cols="25" type="number" id="number" inputMode="numeric" placeholder="Enter Repetitions Number"
+        <input className="border border-red-500 w-full rounded p-2 mb-2" cols="25" type="number" id="number" inputMode="numeric" placeholder="Enter Repetitions Number"
           autoComplete="off" />
 
         <br />
-        <textarea className="form-control border border-primary" id="text1" placeholder="Output Here" autoComplete="off" rows="5"></textarea>
+        <textarea className="border border-red-500 w-full rounded p-2" id="text1" placeholder="Output Here" autoComplete="off" rows="5"></textarea>
         <br />
 
         <div className="">
 
 
-          <button className=" btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton1">Repeat (New
+          <button className="bg-green-500 rounded text-white p-2 px-4 m-2" type="button" id="repeatButton1">Repeat (New
             Line)</button>
 
 
 
-          <button className="btn btn-primary pl-3 pr-3 m-1" type="button" id="repeatButton2" >Repeat
+          <button className="bg-green-500 rounded text-white p-2 px-4 m-2" type="button" id="repeatButton2" >Repeat
             (Same Line)</button>
 
 
 
-          <button className="btn btn-primary pl-3 pr-3 m-1 bt" type="button" data-clipboard-target="#text1">Copy</button>
+          <button className="bg-green-500 rounded text-white p-2 px-4 m-2 bt" type="button" data-clipboard-target="#text1">Copy</button>
 
 
 
-          <button className="btn btn-success pl-3 pr-3 m-1" type="reset" id="reset">Reset</button>
+          <button className="bg-green-500 rounded text-white p-2 px-4 m-2" type="reset" id="reset">Reset</button>
         </div>
         <br />
 
         <br />
-        <h1>What Is Invisible Text Generator?</h1>
+        <h1 className='text-xl font-bold'>What Is Invisible Text Generator?</h1>
         <p className="text-justify">Hey user, if you are want to generate invisible text then you are on the right website. Here you can generate your invisible text unlimited times.</p>
         <br />
-        <h1>How To Use Invisible Text Generator?</h1>
+        <h1 className='text-xl font-bold'>How To Use Invisible Text Generator?</h1>
         <p className="text-justify">Enter the number in the first box when you want to generate invisible text.</p>
       </div>
       <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js'></script>
