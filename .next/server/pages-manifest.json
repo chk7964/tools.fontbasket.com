@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/upper-case": "pages/upper-case.js",
-  "/capitalize-case": "pages/capitalize-case.js"
+  "/upper-case": "pages/upper-case.js"
 }
