@@ -47,7 +47,7 @@ $(function() {
             clearInterval(intvl);
         }, 1000);
         for (var i = 1; i <= 10; i++) {
-            fancyText = '<div class="input-group mb-3"><input type="text" class="form-control" value="' + crazyWithFlourishOrSymbols(text) + '" id="copy_' + ct + '" readonly="readonly"><div class="input-group-append"><span class="input-group-text copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_' + ct + '">Copy</span></div></div>';
+            fancyText = '<div class="bg-gray-100 rounded border border-gray-200 flex items-center justify-between w-auto m-3"><input type="text" class="bg-transparent py-1 text-gray-600 px-4 focus:outline-none w-fit" value="' + crazyWithFlourishOrSymbols(text) + '" id="copy_' + ct + '" readonly="readonly"><div class="input-group-append"><span class="py-2 px-4 bg-white text-gray-600 rounded-r border-l border-gray-200 hover:bg-gray-50 active:bg-gray-200 disabled:opacity-50 inline-flex items-center focus:outline-none copybutton" style="cursor:pointer;" data-clipboard-action="copy" data-clipboard-target="#copy_' + ct + '">Copy</span></div></div>';
             ct++;
             $("#result").append(fancyText);
         }
