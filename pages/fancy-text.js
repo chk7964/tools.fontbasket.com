@@ -10,7 +10,7 @@ export default function fancytext() {
         cursor:pointer;
       `}</style>
 
-    <div className="container p-2">
+   
 
         
     <div>
@@ -291,12 +291,10 @@ export default function fancytext() {
                 <div className="input-group-append"><span className="py-2 px-4 bg-white text-gray-600 rounded-r border-l border-gray-200 hover:bg-gray-50 active:bg-gray-200 disabled:opacity-50 inline-flex items-center focus:outline-none copybutton"   data-clipboard-action="copy" data-clipboard-target="#copy_88">Copy</span></div>
             </div>
         </div>
-        <center>
-            <button className="bg-blue-600 p-2 px-4 rounded text-white loadmore">Load More</button>
+        <center className="mt-8">
+            <button className="bg-blue-600 p-2 px-8 rounded text-white loadmore">Load More</button>
         </center>
-
-        <hr/>
-    </div>
+ 
 
 
 </div>

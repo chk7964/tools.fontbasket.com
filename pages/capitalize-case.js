@@ -6,8 +6,9 @@ export default function capitalizecase() {
 <title>Capitalize Case Converter</title>
 </Head>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+
 <br/>
-<div className="container p-2">
+
 
 <h1 className='text-xl font-bold'>What Is Capitalize Case Converter?</h1>
 <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
@@ -39,7 +40,6 @@ export default function capitalizecase() {
 <p className="italic ">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>
 
 
-</div>
   <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
 <script src='/js/capitalize-case/js.js' defer ></script>

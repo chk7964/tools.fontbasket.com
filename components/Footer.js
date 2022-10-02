@@ -1,9 +1,7 @@
 
 export default function footer() {
  return (
-
-
-  <div>
+<>
 <div className="footer">
   <div className="fmenu">
   <a href="#">Home</a>
@@ -13,7 +11,6 @@ export default function footer() {
 </div>
   <p>Copyright &copy; <b id="year"></b> Your Name All Rights Reserved</p>
 </div>
-    
-  </div>
+  </>
  )
 }

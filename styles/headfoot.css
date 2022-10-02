@@ -50,12 +50,12 @@ div.scrollmenu a:hover {
 }
 
 .footer {
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
+    
   }
 
   .footer p {
@@ -76,11 +76,24 @@ div.scrollmenu a:hover {
     background-color: rgb(240, 78, 3);
   }
 
-  .toast {
-    background-color: rgb(0, 0, 0);
-  }
 
-  .toast-progress {
-    background-color: aquamarine;
-    height: 8px;
-  }
+  body{ min-height:100vh; margin:0; position:relative; }
+header{ min-height:50px; background:lightcyan; }
+footer{ background:PapayaWhip; }
+
+/* Trick: */
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

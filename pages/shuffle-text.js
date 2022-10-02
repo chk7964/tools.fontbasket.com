@@ -10,7 +10,6 @@ Shuffle Text
   </Head>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
-   <div className="container p-2">
     <div className="p-1">
       <textarea className="form-control" rows="5" id="k" placeholder="Enter Your Text"></textarea>
   
@@ -37,7 +36,7 @@ Shuffle Text
     <p className="text-justify">Enter Your words in text box then click shuffle text button and see result below box. Now you can copy your text by clicking copy button.</p>
   
  
-  </div>
+
   <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
 <script src='/js/shuffle-text/js.js' defer ></script>
