@@ -9,8 +9,10 @@ export default function footer() {
   <a href="#">Contact Us</a>
   <a href="#">Privacy Policy</a>
 </div>
-  <p>Copyright &copy; <b id="year"></b> Your Name All Rights Reserved</p>
+  <p>Copyright &copy; <b>{new Date().getFullYear()}</b> Your Name All Rights Reserved</p>
 </div>
+
   </>
  )
 }
+

@@ -6,6 +6,9 @@
     h1 {
       @apply text-xl font-bold;
     }
+    p {
+      @apply italic my-2;
+    }
     td {
       @apply border border-slate-300;
     }
