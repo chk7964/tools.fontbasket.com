@@ -9,7 +9,7 @@ class MyDocument extends Document {
         <link rel="icon" type="image/x-icon" href="/img/favicon.png"/>
         </Head>
         <body>
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/>
+        {/* <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/> */}
        
 
 

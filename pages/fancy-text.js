@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import $ from "jquery";
 export default function fancytext() {
  return (
   <>
@@ -305,3 +306,4 @@ export default function fancytext() {
   </>
  )
 }
+
