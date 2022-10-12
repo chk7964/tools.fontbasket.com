@@ -65,12 +65,6 @@ export default function lowercase() {
   </div>
   
 
-  {/* <div>
-        <button onClick={handleClick}>Add</button>
-    </div> */}
-      
-  
-
     <br/>
     <h1 className='text-xl font-bold'>What Is Lower Case Text Converter?</h1>
     <p className="text-justify">Hey user, if you are want to convert your text in Lower Case letter then you are on the right website here you can convert your text in Lower Case.</p>
