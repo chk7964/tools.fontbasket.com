@@ -6,34 +6,7 @@ import ClipboardJS from 'clipboard';
 // import React from 'react';
 
 export default function lowercase() {
-  const copy = () =>  {     
 
-    var clipboard = new ClipboardJS('.bt');
-
-    clipboard.on('success', function (e) {
-      console.info('Action:', e.action);
-      console.info('Text:', e.text);
-      console.info('Trigger:', e.trigger);
-      toast["success"]("Text Is Copied " + e.text)
-    
-      e.clearSelection();
-      clipboard.destroy();
-    });
-    
-    clipboard.on('error', function (e) {
-      toast["warning"]("Output Is Empty");
-      console.error('Action:', e.action);
-      console.error('Trigger:', e.trigger);
-      clipboard.destroy();
-    });
-  }
-
-  const handleClick = (e) =>  { 
-    let str = document.getElementById("k").value;
-    var string = str.toLowerCase();
-    console.log(string);
-    // $("#result").html(string); 
-}
  return (
   <>
   <Head>
@@ -80,4 +53,33 @@ export default function lowercase() {
 {/* <script src='/js/lower-case/js.js' defer ></script> */}
   </>
  )
+}
+
+const copy = () =>  {     
+
+  var clipboard = new ClipboardJS('.bt');
+
+  clipboard.on('success', function (e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    toast["success"]("Text Is Copied " + e.text)
+  
+    e.clearSelection();
+    clipboard.destroy();
+  });
+  
+  clipboard.on('error', function (e) {
+    toast["warning"]("Output Is Empty");
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+    clipboard.destroy();
+  });
+}
+
+const handleClick = (e) =>  { 
+  let str = document.getElementById("k").value;
+  var string = str.toLowerCase();
+  console.log(string);
+  // $("#result").html(string); 
 }
