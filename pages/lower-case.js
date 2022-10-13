@@ -2,7 +2,7 @@ import Head from 'next/head'
 // import { ToastContainer, toast } from 'react-toastify';
 // // import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
-// import $ from "jquery";
+import $ from "jquery";
 // import React from 'react';
 
 const copy = () =>  {     
@@ -27,12 +27,12 @@ const copy = () =>  {
   });
 }
 
-// const handleClick = (e) =>  { 
-//   let str = document.getElementById("k").value;
-//   var string = str.toLowerCase();
-//   console.log(string);
-//   // $("#result").html(string); 
-// }
+const handleClick = (e) =>  { 
+  let str = document.getElementById("k").value;
+  var string = str.toLowerCase();
+  console.log(string);
+  $("#result").html(string); 
+}
 
 export default function lowercase() {
 
