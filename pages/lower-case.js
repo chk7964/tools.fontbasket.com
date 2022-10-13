@@ -27,7 +27,7 @@ const copy = () =>  {
   });
 }
 
-const handleClick = (e) =>  { 
+const handleClick = () =>  { 
   let str = document.getElementById("k").value;
   var string = str.toLowerCase();
   console.log(string);
@@ -51,7 +51,7 @@ export default function lowercase() {
   
     </div>
   <div className="text-center">
-    <button  className="bg-green-500 rounded text-white p-2 px-8" id="b"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block">
+    <button onClick={handleClick} className="bg-green-500 rounded text-white p-2 px-8" id="b"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block">
   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
 </svg>
 &nbsp;Convert </button>
