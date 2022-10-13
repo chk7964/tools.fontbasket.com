@@ -1,6 +1,6 @@
 import Head from 'next/head'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from '@martinadamec/react-toastify';
+import '@martinadamec/react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 
 export default function SuffleText() {
@@ -12,14 +12,14 @@ export default function SuffleText() {
       console.info('Action:', e.action);
       console.info('Text:', e.text);
       console.info('Trigger:', e.trigger);
-      // toast["success"]("Text Is Copied " + e.text)
+      toast["success"]("Text Is Copied " + e.text)
     
       e.clearSelection();
       clipboard.destroy();
     });
     
     clipboard.on('error', function (e) {
-      // toast["warning"]("Output Is Empty");
+      toast["warning"]("Output Is Empty");
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
       clipboard.destroy();
@@ -62,7 +62,7 @@ Shuffle Text
 </title>
 
   </Head>
-  {/* <ToastContainer /> */}
+  <ToastContainer />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 <br/>
     <div className="p-1">

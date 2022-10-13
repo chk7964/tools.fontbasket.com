@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import $ from "jquery";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from '@martinadamec/react-toastify';
+import '@martinadamec/react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 
 export default function textrepeater() {
@@ -13,14 +13,14 @@ export default function textrepeater() {
       console.info('Action:', e.action);
       console.info('Text:', e.text);
       console.info('Trigger:', e.trigger);
-      // toast["success"]("Text Is Copied " + e.text)
+      toast["success"]("Text Is Copied " + e.text)
     
       e.clearSelection();
       clipboard.destroy();
     });
     
     clipboard.on('error', function (e) {
-      // toast["warning"]("Output Is Empty");
+      toast["warning"]("Output Is Empty");
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
       clipboard.destroy();
@@ -78,7 +78,7 @@ $("#number").val('');
 <title>Text Reapeater</title>
 
 </Head>
-{/* <ToastContainer /> */}
+<ToastContainer />
         <textarea className="border border-red-500 w-full rounded p-2" id="text" placeholder="Enter Text" autoComplete="off" rows="5"></textarea>
         <div className="d-inline-flex ">
           <div className="p-2">
