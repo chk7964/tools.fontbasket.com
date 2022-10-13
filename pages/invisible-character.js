@@ -6,6 +6,7 @@ export default function invisiblecharacter() {
       <title>Invisible Text Generator</title>
     </Head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+      
   
         <h1>What Is Text Repeater?</h1>
         <p className="text-justify">Hey user, if you are want to repeat letter, emoji, and symbol. then you are on the right website here you can repeat your text unlimited times.</p>

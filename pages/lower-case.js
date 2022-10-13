@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 import $ from "jquery";
+import React from 'react';
 
 export default function lowercase() {
   const copy = () =>  {     
