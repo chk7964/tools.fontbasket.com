@@ -1,11 +1,8 @@
-
-import React, { isValidElement, useRef, useLayoutEffect, useEffect, cloneElement, useReducer, useState, forwardRef } from 'react';
-// import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Toast from 'awesome-toast-component'
 
 export default function About() {
     const notify = (e) =>  {
-//  toast("Wow so easy!");
+      new Toast('Hello world! 👋');
         console.log('Free pizza!');
     }
     return (
