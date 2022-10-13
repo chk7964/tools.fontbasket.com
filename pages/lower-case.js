@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
-import $ from "jquery";
-import React from 'react';
+// import $ from "jquery";
+// import React from 'react';
 
 export default function lowercase() {
   const copy = () =>  {     
@@ -32,7 +32,7 @@ export default function lowercase() {
     let str = document.getElementById("k").value;
     var string = str.toLowerCase();
     console.log(string);
-    $("#result").html(string); 
+    // $("#result").html(string); 
 }
  return (
   <>
