@@ -7,4 +7,6 @@ module.exports = {
   sitemapSize: 5000,
   generateRobotsTxt: true,
   // ...other options
+
+  
 }
