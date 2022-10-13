@@ -1,6 +1,5 @@
 import Head from 'next/head'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
 import ClipboardJS from 'clipboard';
 import $ from "jquery";
 
@@ -22,7 +21,10 @@ export default function reversetext() {
   <Head>
     <title>Reverse Text Generator</title>
   </Head>
-  {/* <ToastContainer /> */}
+  <Toaster
+  position="top-right"
+  reverseOrder={true}
+/>
    {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/> */}
 <br/>
     <div className="p-1">
@@ -71,6 +73,7 @@ const copy = () =>  {
     console.info('Text:', e.text);
     console.info('Trigger:', e.trigger);
     // toast["success"]("Text Is Copied " + e.text)
+    toast.success('Successfully toasted!')
     e.clearSelection();
     clipboard.destroy();
   });
