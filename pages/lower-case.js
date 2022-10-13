@@ -5,34 +5,7 @@ import ClipboardJS from 'clipboard';
 // import $ from "jquery";
 // import React from 'react';
 
-const copy = () =>  {     
 
-  var clipboard = new ClipboardJS('.bt');
-
-  clipboard.on('success', function (e) {
-    console.info('Action:', e.action);
-    console.info('Text:', e.text);
-    console.info('Trigger:', e.trigger);
-    toast["success"]("Text Is Copied " + e.text)
-  
-    e.clearSelection();
-    clipboard.destroy();
-  });
-  
-  clipboard.on('error', function (e) {
-    toast["warning"]("Output Is Empty");
-    console.error('Action:', e.action);
-    console.error('Trigger:', e.trigger);
-    clipboard.destroy();
-  });
-}
-
-const handleClick = (e) =>  { 
-  let str = document.getElementById("k").value;
-  var string = str.toLowerCase();
-  console.log(string);
-  // $("#result").html(string); 
-}
 export default function lowercase() {
 
  return (
@@ -50,7 +23,7 @@ export default function lowercase() {
   
     </div>
   <div className="text-center">
-    <button onClick={handleClick} className="bg-green-500 rounded text-white p-2 px-8" id="b"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block">
+    <button  className="bg-green-500 rounded text-white p-2 px-8" id="b"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block">
   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
 </svg>
 &nbsp;Convert </button>
@@ -59,7 +32,7 @@ export default function lowercase() {
     <textarea readOnly className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Enter Your Text"></textarea>
   </div>
   <div className="text-center">
-    <button onClick={copy} className="bg-green-500 rounded text-white p-2 px-8 bt" data-clipboard-target="#result"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline">
+    <button  className="bg-green-500 rounded text-white p-2 px-8 bt" data-clipboard-target="#result"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline">
   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75" />
 </svg>
 
