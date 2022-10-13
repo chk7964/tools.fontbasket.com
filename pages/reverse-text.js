@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import ClipboardJS from 'clipboard';
 import $ from "jquery";
-import React from 'react';
-import {useEffect, useRef} from 'react';
+import  React, {useEffect, useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
