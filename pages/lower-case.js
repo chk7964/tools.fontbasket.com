@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import ClipboardJS from 'clipboard';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+// import ClipboardJS from 'clipboard';
 // import $ from "jquery";
 // import React from 'react';
 
@@ -15,7 +15,7 @@ export default function lowercase() {
     Lower Case Text Converter
     </title>
   </Head>
-  <ToastContainer />
+  {/* <ToastContainer /> */}
    {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/> */}
 <br/>
     <div className="p-1">
