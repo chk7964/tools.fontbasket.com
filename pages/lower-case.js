@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+// import { ToastContainer, toast } from 'react-toastify';
+// // import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 // import $ from "jquery";
 // import React from 'react';
@@ -13,14 +13,14 @@ const copy = () =>  {
     console.info('Action:', e.action);
     console.info('Text:', e.text);
     console.info('Trigger:', e.trigger);
-    toast["success"]("Text Is Copied " + e.text)
+    // toast["success"]("Text Is Copied " + e.text)
   
     e.clearSelection();
     clipboard.destroy();
   });
   
   clipboard.on('error', function (e) {
-    toast["warning"]("Output Is Empty");
+    // toast["warning"]("Output Is Empty");
     console.error('Action:', e.action);
     console.error('Trigger:', e.trigger);
     clipboard.destroy();
@@ -43,7 +43,7 @@ export default function lowercase() {
     Lower Case Text Converter
     </title>
   </Head>
-  <ToastContainer />
+  {/* <ToastContainer /> */}
    {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/> */}
 <br/>
     <div className="p-1">
