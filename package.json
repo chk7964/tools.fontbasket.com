@@ -11,7 +11,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "awesome-toast-component": "^2.0.5",
+    "@martinadamec/react-toastify": "^6.0.9",
     "clipboard": "^2.0.11",
     "jquery": "^3.6.1",
     "next": "12.3.1",
