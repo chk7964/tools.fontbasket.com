@@ -1,11 +1,14 @@
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const notify = () => toast('Here is your toast.');
-function About() {
-    return  <div>
-    <button onClick={notify}>Make me a toast</button>
-    <Toaster />
-  </div>
-  }
-  
-  export default About
+export default function Test() {
+
+    const onClick = () => toast('Toast is good', { hideProgressBar: true, autoClose: 2000, type: 'success' })
+
+    return (<>
+    <button onClick={onClick}> Click Me</button>
+    <ToastContainer />
+    </>
+    )
+
+}
