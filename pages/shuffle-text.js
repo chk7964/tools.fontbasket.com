@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { ToastContainer, toast } from '@martinadamec/react-toastify';
-import '@martinadamec/react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 
 export default function SuffleText() {
