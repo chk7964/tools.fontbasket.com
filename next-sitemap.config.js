@@ -6,7 +6,18 @@ module.exports = {
   priority: 0.5,
   sitemapSize: 5000,
   generateRobotsTxt: true,
+  exclude: ['/test'],
   // ...other options
-
-  
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+      {
+        userAgent: "SemrushBot",
+        disallow: "/",
+      }
+    ]
+  }
 }

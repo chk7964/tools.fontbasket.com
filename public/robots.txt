@@ -2,6 +2,10 @@
 User-agent: *
 Allow: /
 
+# SemrushBot
+User-agent: SemrushBot
+Disallow: /
+
 # Host
 Host: https://tools.fontbasket.com
 
