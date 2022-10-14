@@ -43,7 +43,7 @@ export default function lowercase() {
     </title>
   </Head>
   <ToastContainer />
-   {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/> */}
+
 <br/>
     <div className="p-1">
       <textarea className="border border-red-500 w-full rounded p-2" rows="5" id="k" placeholder="Enter Your Text"></textarea>

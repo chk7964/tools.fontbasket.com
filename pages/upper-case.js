@@ -1,11 +1,42 @@
 import Head from 'next/head'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ClipboardJS from 'clipboard';
+import $ from "jquery";
 export default function uppercase() {
+  const copy = () =>  {     
+
+    var clipboard = new ClipboardJS('.bt');
+  
+    clipboard.on('success', function (e) {
+      console.info('Action:', e.action);
+      console.info('Text:', e.text);
+      console.info('Trigger:', e.trigger);
+      toast["success"]("Text Is Copied " + e.text)
+    
+      e.clearSelection();
+      clipboard.destroy();
+    });
+    
+    clipboard.on('error', function (e) {
+      toast["warning"]("Output Is Empty");
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+      clipboard.destroy();
+    });
+  }
+
+  const convert = () =>  { 
+    let str = document.getElementById("k").value;
+    var string = str.toUpperCase();
+    $("#result").html(string); 
+  }
  return (
   <>
   <Head>
 <title>Upper Case Converter</title>
 </Head>
-   {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+<ToastContainer />
 <br/>
 <div className="container p-2" >
     <div className="p-1">
@@ -13,13 +44,13 @@ export default function uppercase() {
   
     </div>
   <div className="text-center">
-    <button className="bg-green-500 rounded text-white p-2 px-4" id="b"><i className="fa fa-angle-double-down"></i> Convert </button>
+    <button onClick={convert} className="bg-green-500 rounded text-white p-2 px-4" id="b"><i className="fa fa-angle-double-down"></i> Convert </button>
   </div>
   <div className="p-1">
     <textarea readOnly className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Your Result Here"></textarea>
   </div>
   <div className="text-center">
-    <button className="bg-green-500 rounded text-white p-2 px-4 bt" data-clipboard-target="#result"><i className="fa fa-clone"></i> Copy</button>
+    <button onClick={copy} className="bg-green-500 rounded text-white p-2 px-4 bt" data-clipboard-target="#result"><i className="fa fa-clone"></i> Copy</button>
   </div>
   
 
@@ -36,9 +67,6 @@ export default function uppercase() {
   
  
   </div>
-  <script src='https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js' defer ></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer ></script>
-<script src='/js/upper-case/js.js' defer ></script> */}
   </>
  )
 }

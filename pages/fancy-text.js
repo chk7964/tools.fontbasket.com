@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import $ from "jquery";
 export default function fancytext() {
  return (
   <>
 <Head>
     <title>Fancy Text Generator</title>
 </Head>
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/>
 <style jsx>{`
      .copybutton{
         cursor:pointer;
