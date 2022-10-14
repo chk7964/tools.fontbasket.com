@@ -27,9 +27,9 @@ export default function uppercase() {
   }
 
   const convert = () =>  { 
-    let str = document.getElementById("k").value;
-    var string = str.toUpperCase();
-    $("#result").html(string); 
+    let text = document.getElementById("k").value;
+    let result = text.toLocaleUpperCase();
+    $("#result").html(result); 
   }
  return (
   <>
@@ -44,13 +44,13 @@ export default function uppercase() {
   
     </div>
   <div className="text-center">
-    <button onClick={convert} className="bg-green-500 rounded text-white p-2 px-4" id="b"><i className="fa fa-angle-double-down"></i> Convert </button>
+    <button onClick={convert} className="bg-green-500 rounded text-white p-2 px-4" id="b"> Convert </button>
   </div>
   <div className="p-1">
     <textarea readOnly className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Your Result Here"></textarea>
   </div>
   <div className="text-center">
-    <button onClick={copy} className="bg-green-500 rounded text-white p-2 px-4 bt" data-clipboard-target="#result"><i className="fa fa-clone"></i> Copy</button>
+    <button onClick={copy} className="bg-green-500 rounded text-white p-2 px-4 bt" data-clipboard-target="#result"> Copy</button>
   </div>
   
 
