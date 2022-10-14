@@ -27,9 +27,10 @@ export default function uppercase() {
   }
 
   const convert = () =>  { 
-    let text = document.getElementById("k").value;
-    let result = text.toLocaleUpperCase();
-    $("#result").html(result); 
+    // let text = document.getElementById("k").value;
+    // let result = text.toLocaleUpperCase();
+    // $("#result").html(result); 
+    console.log("Test");
   }
  return (
   <>
