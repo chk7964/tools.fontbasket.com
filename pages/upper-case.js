@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
-import $ from "jquery";
 export default function uppercase() {
   const copy = () =>  {     
 
@@ -38,17 +37,17 @@ export default function uppercase() {
 <title>Upper Case Converter</title>
 </Head>
 <ToastContainer />
-<br/>
-<div className="container p-2" >
-    <div className="p-1">
+
+
+    {/* <div className="p-1">
       <textarea className="border border-red-500 w-full rounded p-2" rows="5" id="k" placeholder="Enter Your Text"></textarea>
   
     </div>
   <div className="text-center">
     <button className="bg-green-500 rounded text-white p-2 px-4" id="b"> Convert </button>
-  </div>
+  </div> */}
   <div className="p-1">
-    <textarea readOnly className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Your Result Here"></textarea>
+    <textarea  className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Your Result Here"></textarea>
   </div>
   <div className="text-center">
     <button onClick={copy} className="bg-green-500 rounded text-white p-2 px-4 bt" data-clipboard-target="#result"> Copy</button>
@@ -66,8 +65,6 @@ export default function uppercase() {
   <h1 className='text-xl font-bold'>How To Use Upper Case Text Generator?</h1>
     <p className="italic">Here i will tell you how to use this tool. First for you copy your text who want to upper Case convert and paste or type here "Enter Your Text" box. Then you click convert button and see result in </p>
   
- 
-  </div>
   </>
  )
 }
