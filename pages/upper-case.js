@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ClipboardJS from 'clipboard';
 export default function uppercase() {
+  
   const copy = () =>  {     
 
     var clipboard = new ClipboardJS('.bt');
