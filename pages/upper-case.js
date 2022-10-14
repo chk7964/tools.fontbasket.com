@@ -26,12 +26,12 @@ export default function uppercase() {
     });
   }
 
-  const convert = () =>  { 
-    // let text = document.getElementById("k").value;
-    // let result = text.toLocaleUpperCase();
-    // $("#result").html(result); 
-    console.log("Test");
-  }
+  // const convert = () =>  { 
+  //   // let text = document.getElementById("k").value;
+  //   // let result = text.toLocaleUpperCase();
+  //   // $("#result").html(result); 
+  //   console.log("Test");
+  // }
  return (
   <>
   <Head>
@@ -45,7 +45,7 @@ export default function uppercase() {
   
     </div>
   <div className="text-center">
-    <button onClick={convert} className="bg-green-500 rounded text-white p-2 px-4" id="b"> Convert </button>
+    <button className="bg-green-500 rounded text-white p-2 px-4" id="b"> Convert </button>
   </div>
   <div className="p-1">
     <textarea readOnly className="border border-red-500 w-full rounded p-2" rows="5" id="result" placeholder="Your Result Here"></textarea>
