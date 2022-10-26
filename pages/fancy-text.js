@@ -7,7 +7,7 @@ export default function fancytext() {
 <Head>
     <title>Fancy Text Generator</title>
 </Head>
- <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/>
+ <Script src="https://code.jquery.com/jquery-3.6.1.min.js" async/>
 <style jsx>{`
      .copybutton{
         cursor:pointer;
