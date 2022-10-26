@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Script from 'next/Script'
+import Script from 'next/script'
 
 export default function fancytext() {
  return (
@@ -7,7 +7,7 @@ export default function fancytext() {
 <Head>
     <title>Fancy Text Generator</title>
 </Head>
- <script src="https://code.jquery.com/jquery-3.6.1.min.js" defer/>
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/>
 <style jsx>{`
      .copybutton{
         cursor:pointer;
@@ -302,12 +302,10 @@ export default function fancytext() {
 
 </div>
 
-<Script src="/js/fancy-text/clipboard.js" strategy="beforeInteractive" ></Script>
-<Script src="/js/fancy-text/fonts.js" strategy="beforeInteractive" ></Script>
-<Script src="/js/fancy-text/preview.js" strategy="beforeInteractive" ></Script>
-<Script src="/js/fancy-text/copybutton.js" strategy="beforeInteractive" ></Script>
-
-
+<script src="/js/fancy-text/clipboard.js" defer ></script>
+<script src="/js/fancy-text/fonts.js" defer ></script>
+<script src="/js/fancy-text/preview.js" defer ></script>
+<script src="/js/fancy-text/copybutton.js" defer ></script>
 
 
 
