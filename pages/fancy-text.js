@@ -7,7 +7,7 @@ export default function fancytext() {
 <Head>
     <title>Fancy Text Generator</title>
 </Head>
- <Script src="https://code.jquery.com/jquery-3.6.1.min.js" strategy="beforeInteractive"/>
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js"/>
 <style jsx>{`
      .copybutton{
         cursor:pointer;
