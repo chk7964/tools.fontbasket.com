@@ -302,7 +302,7 @@ export default function fancytext() {
 
 </div>
 
-<script src="/js/fancy-text/clipboard.js" defer ></script>
+<Script src="/js/fancy-text/clipboard.js" defer ></Script>
 <Script src="/js/fancy-text/fonts.js" strategy="beforeInteractive" ></Script>
 <Script src="/js/fancy-text/preview.js" defer ></Script>
 <Script src="/js/fancy-text/copybutton.js" defer ></Script>
