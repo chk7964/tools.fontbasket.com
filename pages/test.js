@@ -34,9 +34,7 @@ export default function About() {
 
 <textarea id="unicode_text" className="border border-red-500 w-full rounded p-2"></textarea>
 
-<Script>
 
-</Script>
 <h1> Kruti Dev To Unicode Converter</h1>
 <p>Hello</p>
 </div>

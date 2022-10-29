@@ -67,9 +67,7 @@ export default function About() {
   <button onClick={copy} className="bg-green-500 p-2 m-2 rounded  bt" data-clipboard-target="#legacy_text"> Copy</button>
   <button className="bg-green-500 p-2 m-2 rounded"   name="converter" onClick={reset}>Reset</button>
   </div>
-<Script>
 
-</Script>
 <h1>Kruti Dev To Unicode Converter</h1>
 <p>Kruti Dev to unicode converter is used to convert kruti dev text to unicode text.</p>
 <h1>What is Kruti Dev?</h1>
